@@ -39,6 +39,7 @@ html*{
 
 .expander-top{
   padding: 10px;
+  width: 100%;
   background: #fff;
   border-bottom: 1px solid #ece9e9;
   border-top:1px solid #ece9e9;

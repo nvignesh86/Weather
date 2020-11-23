@@ -38,7 +38,7 @@ export default class ChartCmp extends React.Component {
             animationEnabled: true,
             title: {text: config.chartTitle},
             axisY: {title: config.axisYTitle},
-            axisX: {title: config.axisXTitle, labelAngle:0},
+            axisX: {title: config.axisXName, labelAngle:0},
             toolTip: {shared: true, contentFormatter: (e) => this.contentFormatter(this, e)}
         };
 
